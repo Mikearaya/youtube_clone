@@ -2,6 +2,9 @@
 header {
   background-color: "#ffffff";
 }
+#nav-container{
+  display: flex;
+}
 
 img#logo {
   width: 200px;
