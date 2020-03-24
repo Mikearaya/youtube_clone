@@ -42,12 +42,14 @@ To get a local copy up and running follow these simple example steps.
 👤 **Mikael Araya**
 
 - Github: [@mikearaya](https://github.com/mikearaya)
-- Twitter: [@twitterhandle](https://twitter.com/mikearaya12)
+- Twitter: [@mikearaya12](https://twitter.com/mikearaya12)
 - Linkedin: [linkedin](https://linkedin.com/in/mikael-araya)
 
 👤 **Mworekwa Ezekiel**
 
 - Github: [@vanheaven-ui](https://github.com/vanheaven-ui)
+Twitter: [@MworekwaE](https://twitter.com/MworekwaE)
+- Linkedin: [linkedin](www.linkedin.com/in/vanheaven)
 
 ## 🤝 Contributing
 
