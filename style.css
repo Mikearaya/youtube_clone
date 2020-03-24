@@ -1,6 +1,21 @@
 /* HEADER SECTION START */
 header {
-  background-color: rgb(0, 102, 0);
+  background-color: "#ffffff";
+}
+
+img#logo {
+  width: 200px;
+  height: 70px;
+}
+
+div#burger-box {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+span.burger-stripe {
+  border: 1em gray solid;
 }
 
 /* HEADER SECTION END */
@@ -43,3 +58,11 @@ footer {
 }
 
 /* FOOTER SECTION END */
+
+/* GENERAL CSS START */
+
+.hidden-item {
+  display: none;
+}
+
+/* GENERAL CSS END */

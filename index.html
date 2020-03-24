@@ -10,7 +10,27 @@
   <body>
     <header>
       <nav id="nav-container">
-        <h1>Navbar</h1>
+        <div id="burger-box">
+          <span class="burger-stripe"></span>
+          <span class="burger-stripe"></span>
+          <span class="burger-stripe"></span>
+        </div>
+        <img
+          alt="youtube logo"
+          id="logo"
+          src="data:image/png;base64,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"
+        />
+        <div id="search-box">
+          <label for="search-input" class="hidden-item">Search</label>
+          <input
+            type="text"
+            placeholder="Search"
+            id="search-input"
+            title="Search"
+          />
+          <button type="button" onclick="javascript.void(0)">Search</button>
+        </div>
+        <div id="nav-thubnail"></div>
       </nav>
     </header>
 
