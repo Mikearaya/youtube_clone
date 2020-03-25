@@ -77,6 +77,23 @@
   border-radius: 180%;
 }
 
+#video {
+  position: relative;
+}
+
+#video i {
+  font-size: 20px;
+}
+
+#video span {
+  position: absolute;
+  left: 23px;
+  color: white;
+  font-size: 15px;
+  top: 2px;
+  font-weight: 800;
+}
+
 /* HEADER SECTION END */
 
 /* MAIN SECTION CONTAINER */
