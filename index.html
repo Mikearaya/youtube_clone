@@ -6,25 +6,64 @@
     <title>Youtube video page</title>
     <link rel="stylesheet" href="./styles//css-reset.css" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <header>
-      <nav id="nav-container">
-        <h1>Navbar</h1>
-      </nav>
-    </header>
+    <nav id="nav-container">
+      <div id="left-nav-item">
+        <div id="burger-box">
+          <span class="burger-stripe"></span>
+          <span class="burger-stripe"></span>
+          <span class="burger-stripe"></span>
+        </div>
+        <div id="logo">
+          <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          <span>YouTube</span>
+        </div>
+      </div>
 
-    <section id="main">
-      <main>
-        <h1>Main section</h1>
-      </main>
+      <div id="search-box" class="opacity6">
+        <label for="search-input" class="hidden-item">Search</label>
+        <input
+          type="text"
+          placeholder="Search"
+          id="search-input"
+          title="Search"
+        />
+        <button id="search-button" type="button" onclick="javascript.void(0)">
+          <i class="fa fa-search opacity6"></i>
+        </button>
+      </div>
+
+      <div id="right-nav-item">
+        <div id="video">
+          <i class="fa fa-video-camera" aria-hidden="true"></i>
+          <span>+</span>
+        </div>
+        <i class="fa fa-th" aria-hidden="true"></i>
+        <i class="fa fa-bell"></i>
+        <img
+          src="./images/user_avator.jpg"
+          alt="user avator"
+          id="user-avator"
+        />
+      </div>
+    </nav>
+
+    <main>
+      <section id="main">
+        <h2>Main section</h2>
+      </section>
       <aside>
-        <h1>Sidebar</h1>
+        <h2>Sidebar</h2>
       </aside>
-    </section>
+    </main>
 
     <footer>
-      <h1>Footer</h1>
+      <h2>Footer</h2>
     </footer>
   </body>
 </html>
