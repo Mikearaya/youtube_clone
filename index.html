@@ -6,7 +6,6 @@
     <title>Youtube video page</title>
     <link rel="stylesheet" href="./styles//css-reset.css" />
     <link rel="stylesheet" href="./style.css" />
-    <!--Loading font awesome CSS file to get icons-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -20,6 +19,10 @@
           <span class="burger-stripe"></span>
           <span class="burger-stripe"></span>
         </div>
+        <div class="logo">
+          <i class="fa fa-youtube-play" aria-hidden="true"></i>
+        </div>
+        
       </div>
 
       <div id="search-box">
@@ -30,14 +33,14 @@
           id="search-input"
           title="Search"
         />
-        <button type="button" onclick="javascript.void(0)">Search</button>
+        <button id="search-button" type="button" onclick="javascript.void(0)"><i class="fa fa-search"></i></button>
       </div>
 
       <div id="right-nav-item">
+        <i class="fa fa-video-camera" aria-hidden="true"></i>
+        <i class="fa fa-th" aria-hidden="true"></i>
         <i class="fa fa-bell"></i>
-        <i class="fa fa-bell"></i>
-        <i class="fa fa-bell"></i>
-        <i class="user-thumb fa fa-user"></i>
+        <i class="user-thumb fa fa-user fa-4x"></i>
       </div>
     </nav>
 

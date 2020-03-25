@@ -9,7 +9,7 @@
 #left-nav-item {
   display: flex;
   align-items: center;
-  width: 10vw;
+  width: 15vw;
 }
 
 #burger-box {
@@ -37,8 +37,13 @@
 
 #search-box {
   display: flex;
-  width: 75vw;
+  width: 70vw;
   justify-content: center;
+}
+
+#search-button {
+  width: 90px;
+  font-size: 1em;
 }
 
 img#logo {
