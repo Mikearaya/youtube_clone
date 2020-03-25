@@ -23,7 +23,7 @@
 .burger-stripe {
   border: 1px solid gray;
   height: 1px;
-  margin: 4px 0 0 0;
+  margin: 3px 0 0 0;
   width: 20px;
   background: grey;
 }
@@ -31,9 +31,11 @@
 #right-nav-item {
   align-items: center;
   display: flex;
+  font-size: 17px;
   justify-content: flex-end;
   margin-right: 2em;
   width: 15vw;
+  color: #606060;
 }
 
 #search-box {
@@ -48,11 +50,12 @@
 }
 
 #logo {
-  font-size: 1.5em;
+  font-size: 25px;
 }
 
 #logo span {
   font-weight: bolder;
+  letter-spacing: -1px;
 }
 
 #right-nav-item i {
@@ -65,12 +68,13 @@
   padding-left: 10px;
 }
 
-.opacity5 {
-  opacity: 0.5;
-}
-
 .fa-youtube-play {
   color: red;
+}
+
+#user-avator {
+  width: 35px;
+  border-radius: 180%;
 }
 
 /* HEADER SECTION END */
@@ -118,6 +122,10 @@ footer {
 
 .hidden-item {
   display: none;
+}
+
+.opacity6 {
+  opacity: 0.6;
 }
 
 /* GENERAL CSS END */
