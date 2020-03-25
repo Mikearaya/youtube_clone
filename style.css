@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   width: 15vw;
+  justify-content: space-around;
 }
 
 #burger-box {
@@ -22,8 +23,8 @@
 .burger-stripe {
   border: 1px solid gray;
   height: 1px;
-  margin: 6px 0 0 0;
-  width: 25px;
+  margin: 4px 0 0 0;
+  width: 20px;
   background: grey;
 }
 
@@ -42,13 +43,16 @@
 }
 
 #search-button {
-  width: 90px;
   font-size: 1em;
+  width: 70px;
 }
 
-img#logo {
-  width: 200px;
-  height: 70px;
+#logo {
+  font-size: 1.5em;
+}
+
+#logo span {
+  font-weight: bolder;
 }
 
 #right-nav-item i {
@@ -57,6 +61,16 @@ img#logo {
 
 #search-input {
   width: 500px;
+  font-size: 1em;
+  padding-left: 10px;
+}
+
+.opacity5 {
+  opacity: 0.5;
+}
+
+.fa-youtube-play {
+  color: red;
 }
 
 /* HEADER SECTION END */
