@@ -120,18 +120,72 @@ header#sidebar-header {
 
 main {
   width: 70vw;
-  background-color: #fff;
+  display: flex;
+  margin: 1em;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 750px;
+}
+main section {
+  display: flex;
+  background: white;
+  width: 100%;
+}
+
+#video-title {
+  height: 150px;
   display: flex;
   flex-direction: column;
-  align-items: space-between;
-  height: 70vh;
+  justify-content: space-between;
 }
 
-#video-size {
-  width: 100%;
-  height: 315px;
+#published-by {
+  display: flex;
 }
 
+#subscribe-section {
+  display: flex;
+  border: 1px solid grey;
+}
+
+#subscribe-button .fa-youtube-play {
+  color: white;
+}
+
+#video-title {
+  font-size: 20px;
+}
+
+#subscribe-button {
+  background: red;
+  color: white;
+}
+#video-stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+#social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#social-section-left,
+#social-section-right {
+  display: flex;
+  justify-content: space-around;
+}
+
+#video-description {
+  height: 150px;
+}
+
+#video-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 /* VIDEO SECTION END */
 
 /* SIDEBAR SECTION START */
@@ -212,5 +266,18 @@ footer {
 
 body {
   font: "normal  'YouTube Noto', Roboto, arial, sans-serif";
+  background: #f1f1f1;
   font-family: "'YouTube Noto', Roboto, arial, sans-serif";
+}
+
+.background-red {
+  background: red;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-red {
+  color: red;
 }
