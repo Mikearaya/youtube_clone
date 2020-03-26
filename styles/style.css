@@ -119,10 +119,17 @@ header#sidebar-header {
 /* VIDEO SECTION START */
 
 main {
-  text-align: center;
   width: 70vw;
-  background-color: rgb(255, 102, 0);
-  float: left;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  height: 70vh;
+}
+
+#video-size {
+  width: 100%;
+  height: 315px;
 }
 
 /* VIDEO SECTION END */
@@ -134,7 +141,6 @@ aside {
   display: flex;
   flex-direction: column;
   margin: 1em;
-
   width: 30vw;
 }
 
@@ -147,6 +153,7 @@ section.video-preview-content {
   font-size: 12px;
   margin-bottom: 1em;
 }
+
 div.details {
   margin: 0 0 0 1em;
 }
