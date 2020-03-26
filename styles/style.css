@@ -100,8 +100,18 @@
 
 section#main {
   display: flex;
+  background: #f1f1f1;
   margin: 0 2em;
-  background-color: rgb(0, 51, 204);
+}
+
+header#sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.fa-toggle-on {
+  color: #167ac6;
 }
 
 /* MAIN SECTION CONTAINER END */
@@ -120,8 +130,36 @@ main {
 /* SIDEBAR SECTION START */
 
 aside {
-  background-color: rgb(153, 51, 153);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+
   width: 30vw;
+}
+
+section.video-preview-content {
+  display: flex;
+  margin: 0.8em 1em;
+}
+
+#show-more-button {
+  font-size: 12px;
+  margin-bottom: 1em;
+}
+div.details {
+  margin: 0 0 0 1em;
+}
+
+h3.video-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p.preview-user,
+span.preview-views {
+  font-size: 11px;
 }
 
 /* SIDEBAR SECTION END */
@@ -145,4 +183,23 @@ footer {
   opacity: 0.6;
 }
 
+.light-text {
+  font-size: 15px;
+  color: #7c7c7c;
+}
+
+.thin-separator {
+  margin: 0.3em 1em;
+  border: 0.8px solid #7c7c7c;
+}
+
+.align-center {
+  text-align: center;
+}
+
 /* GENERAL CSS END */
+
+body {
+  font: "normal  'YouTube Noto', Roboto, arial, sans-serif";
+  font-family: "'YouTube Noto', Roboto, arial, sans-serif";
+}
