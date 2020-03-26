@@ -57,9 +57,11 @@
   font-weight: bolder;
   letter-spacing: -1px;
 }
+
 #right-nav-item i {
   margin: 0 1em;
 }
+
 #search-input {
   width: 500px;
   font-size: 1em;
