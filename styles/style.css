@@ -162,6 +162,10 @@ span.preview-views {
   font-size: 11px;
 }
 
+span.preview-views::after {
+  content: "views";
+}
+
 /* SIDEBAR SECTION END */
 
 /* FOOTER SECTION START */
