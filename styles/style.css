@@ -1,0 +1,148 @@
+/* HEADER SECTION START */
+
+#nav-container {
+  display: flex;
+  height: 30px;
+  padding: 15px 0 15px 0;
+}
+
+#left-nav-item {
+  display: flex;
+  align-items: center;
+  width: 15vw;
+  justify-content: space-around;
+}
+
+#burger-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  align-items: flex-start;
+}
+
+.burger-stripe {
+  border: 1px solid gray;
+  height: 1px;
+  margin: 3px 0 0 0;
+  width: 20px;
+  background: grey;
+}
+
+#right-nav-item {
+  align-items: center;
+  display: flex;
+  font-size: 17px;
+  justify-content: flex-end;
+  margin-right: 2em;
+  width: 15vw;
+  color: #606060;
+}
+
+#search-box {
+  display: flex;
+  width: 70vw;
+  justify-content: center;
+}
+
+#search-button {
+  font-size: 1em;
+  width: 70px;
+}
+
+#logo {
+  font-size: 25px;
+}
+
+#logo span {
+  font-weight: bolder;
+  letter-spacing: -1px;
+}
+
+#right-nav-item i {
+  margin: 0 1em;
+}
+
+#search-input {
+  width: 500px;
+  font-size: 1em;
+  padding-left: 10px;
+}
+
+.fa-youtube-play {
+  color: red;
+}
+
+#user-avator {
+  width: 35px;
+  border-radius: 180%;
+}
+
+#video {
+  position: relative;
+}
+
+#video i {
+  font-size: 20px;
+}
+
+#video span {
+  position: absolute;
+  left: 23px;
+  color: white;
+  font-size: 15px;
+  top: 2px;
+  font-weight: 800;
+}
+
+/* HEADER SECTION END */
+
+/* MAIN SECTION CONTAINER */
+
+section#main {
+  display: flex;
+  margin: 0 2em;
+  background-color: rgb(0, 51, 204);
+}
+
+/* MAIN SECTION CONTAINER END */
+
+/* VIDEO SECTION START */
+
+main {
+  text-align: center;
+  width: 70vw;
+  background-color: rgb(255, 102, 0);
+  float: left;
+}
+
+/* VIDEO SECTION END */
+
+/* SIDEBAR SECTION START */
+
+aside {
+  background-color: rgb(153, 51, 153);
+  width: 30vw;
+}
+
+/* SIDEBAR SECTION END */
+
+/* FOOTER SECTION START */
+
+footer {
+  background-color: rgb(204, 255, 102);
+  height: 65px;
+}
+
+/* FOOTER SECTION END */
+
+/* GENERAL CSS START */
+
+.hidden-item {
+  display: none;
+}
+
+.opacity6 {
+  opacity: 0.6;
+}
+
+/* GENERAL CSS END */
