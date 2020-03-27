@@ -70,10 +70,6 @@ nav#nav-container {
   padding-left: 10px;
 }
 
-.fa-youtube-play {
-  color: red;
-}
-
 #user-avator {
   width: 35px;
   border-radius: 180%;
@@ -90,7 +86,7 @@ nav#nav-container {
 #video span {
   position: absolute;
   left: 23px;
-  color: white;
+  color: #fff;
   font-size: 15px;
   top: 2px;
   font-weight: 800;
@@ -132,8 +128,9 @@ main {
 
 main section {
   display: flex;
-  background: white;
+  background: #fff;
   width: 100%;
+  padding: 10px;
 }
 
 #video-title {
@@ -142,7 +139,7 @@ main section {
   flex-direction: column;
   justify-content: space-between;
   font-size: 20px;
-  padding: 10 10 0 10;
+  padding: 10px;
 }
 
 #published-by {
@@ -152,21 +149,24 @@ main section {
 #subscribe-section {
   display: flex;
   border: 1px solid grey;
+  border-radius: 2px;
   margin: 1em 0;
 }
 
 #subscribe-button .fa-youtube-play {
-  color: white;
+  color: #fff;
 }
 
 #subscribe-button {
-  background: red;
-  color: white;
-  padding: 2px 2px;
+  background: #f00;
+  color: #fff;
+  padding: 2px 6px;
+  cursor: pointer;
 }
 
 .total-subscription {
   margin: 3px;
+  line-height: initial;
 }
 
 #video-stats {
@@ -178,6 +178,7 @@ main section {
 #social-icons {
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 
 #social-section-left,
@@ -204,6 +205,12 @@ main section {
   height: 200px;
 }
 
+#video-description p {
+  font-weight: 350;
+  font-size: 13px;
+  color: #333;
+}
+
 #views {
   align-self: flex-end;
   margin: 0 1em;
@@ -219,7 +226,7 @@ main section {
 /* SIDEBAR SECTION START */
 
 aside {
-  background: white;
+  background: #fff;
   display: flex;
   flex-direction: column;
   margin: 1em;
@@ -263,18 +270,17 @@ footer {
   padding: 15px 30px;
   display: flex;
   flex-direction: column;
-  font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+  font-family: "YouTube Noto", Roboto, arial, sans-serif;
   background-color: #fff;
 }
 
 .footer-top-wrapper {
   display: flex;
-  background-color:white;
+  background-color: #fff;
   align-items: flex-start;
   justify-content: flex-start;
   padding-bottom: 15px;
-  border-bottom:1px solid rgb(226,226,226);
-
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .footer-bottom-wrapper a {
@@ -283,18 +289,18 @@ footer {
 
 #footer-logo {
   display: flex;
-  margin: 0px 15px 0 4px;
+  margin: 0 15px 0 4px;
 }
 
 .top-item {
   padding: 5px 10px;
-  border: 1px solid rgb(211, 211,211);
+  border: 1px solid rgb(211, 211, 211);
   width: auto;
   margin-right: 15px;
   color: #333;
   font-size: 11px;
-  background-color: #F8F8F8;
-  box-shadow: rgba(0,0,0,0.046875) 0px 1px 0px;
+  background-color: #f8f8f8;
+  box-shadow: rgba(0, 0, 0, 0.046875) 0 1px 0;
   border-radius: 2px;
 }
 
@@ -315,7 +321,7 @@ footer {
 .footer-bottom-wrapper {
   display: flex;
   flex-direction: column;
-  padding: 15px 0px 15px 8px;
+  padding: 15px 0 15px 8px;
   margin-bottom: 8px;
 }
 
@@ -325,7 +331,7 @@ footer {
   color: #000;
 }
 
-#bottom-top>a {
+#bottom-top > a {
   color: #333;
   font-size: 13px;
   font-weight: bolder;
@@ -336,14 +342,14 @@ footer {
   background: cornflowerblue;
 }
 
-#bottom-bottom>a {
+#bottom-bottom > a {
   color: #666;
   font-size: 11px;
   font-weight: 500;
   margin-right: 18px;
 }
 
-#bottom-bottom>#bottom-last {
+#bottom-bottom > #bottom-last {
   margin-left: 10px;
 }
 
@@ -351,11 +357,11 @@ footer {
   display: flex;
 }
 
-.fa-youtube-play {
-  color: red;
+i.fa-youtube-play {
+  color: #f00;
 }
 
-.fa {
+i.fa {
   margin: 0 5px;
 }
 
@@ -366,6 +372,7 @@ footer {
 }
 
 /* FOOTER SECTION END */
+
 /* GENERAL CSS START */
 
 .hidden-item {
@@ -399,20 +406,20 @@ body {
 }
 
 .background-red {
-  background: red;
+  background: #f00;
 }
 
 .color-white {
-  color: white;
+  color: #fff;
 }
 
 .color-red {
-  color: red;
+  color: #f00;
 }
 
 button.icon-button {
   border: none;
   margin: 0 1em 0 0;
-  background: white;
+  background: #fff;
   color: #818282;
 }
