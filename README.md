@@ -1,6 +1,7 @@
 # Youtube Clone
 
-Clone of [youtube.com](https://www.youtube.com) for our first Microverse project included in the HTML & CSS course.
+
+Clone of [youtube.com](https://www.youtube.com) for our first Microverse project included in the HTML & CSS course. 
 
 ![screenshot](./images/screenshot.png)
 
@@ -16,16 +17,13 @@ Clone of [youtube.com](https://www.youtube.com) for our first Microverse project
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+ - Clone or download this repository to your local workstation.
 
-- Clone or download this repository to your local workstation.
 
 ### Prerequisites
-
 there are no prerequisits to run the project. but if you want to work on it make sure you have the following installed in your global evnviroment
-
-- [npm](https://www.npmjs.com/products/teams?utm_source=adwords&utm_medium=ppc&utm_campaign=npmTeams2019Q2&utm_content=site&gclid=Cj0KCQjwyPbzBRDsARIsAFh15JaJyPdeb-Q11Rq-LMaulSWINd6PYdJQ2OkZyE75reyBcpnnmwPrgRoaAv_5EALw_wcB)
-- [npx](https://www.npmjs.com/package/npx)
-
+  - [npm](https://www.npmjs.com/products/teams?utm_source=adwords&utm_medium=ppc&utm_campaign=npmTeams2019Q2&utm_content=site&gclid=Cj0KCQjwyPbzBRDsARIsAFh15JaJyPdeb-Q11Rq-LMaulSWINd6PYdJQ2OkZyE75reyBcpnnmwPrgRoaAv_5EALw_wcB)
+  - [npx](https://www.npmjs.com/package/npx)
 ### Install
 
 for development make sure you run the following command before you start working on the project
@@ -33,9 +31,8 @@ for development make sure you run the following command before you start working
 this will install all the packages used for development purpose, mainly `stylint`
 
 ### Usage
-
-enter the directory where you cloned or downloaded the project and open index.html file using your favorite browser
-
+ enter the directory where you cloned or downloaded the project and open index.html file using your favorite browser
+ 
 ## Authors
 
 👤 **Mikael Araya**
