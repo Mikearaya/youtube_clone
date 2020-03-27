@@ -1,9 +1,10 @@
 /* HEADER SECTION START */
 
-#nav-container {
+nav#nav-container {
   display: flex;
   height: 30px;
   padding: 15px 0 15px 0;
+  background: #fff;
 }
 
 #left-nav-item {
@@ -102,7 +103,7 @@
 section#main {
   display: flex;
   background: #f1f1f1;
-  margin: 0 2em;
+  margin: 0;
 }
 
 header#sidebar-header {
@@ -126,8 +127,9 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height: 750px;
+  height: 900px;
 }
+
 main section {
   display: flex;
   background: white;
@@ -135,10 +137,12 @@ main section {
 }
 
 #video-title {
-  height: 150px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-size: 20px;
+  padding: 10 10 0 10;
 }
 
 #published-by {
@@ -148,19 +152,21 @@ main section {
 #subscribe-section {
   display: flex;
   border: 1px solid grey;
+  margin: 1em 0;
 }
 
 #subscribe-button .fa-youtube-play {
   color: white;
 }
 
-#video-title {
-  font-size: 20px;
-}
-
 #subscribe-button {
   background: red;
   color: white;
+  padding: 2px 2px;
+}
+
+.total-subscription {
+  margin: 3px;
 }
 
 #video-stats {
@@ -177,18 +183,35 @@ main section {
 #social-section-left,
 #social-section-right {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 0 10px 0;
+  font-size: 11px;
+}
+
+#publisher-name {
+  margin: 0 0 0 1em;
+}
+
+#publisher-image {
+  width: 70px;
+  height: 70px;
 }
 
 #video-description {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 150px;
+  height: 200px;
 }
 
 #views {
   align-self: flex-end;
+  margin: 0 1em;
+  font-size: 19px;
+}
+
+#video-name {
+  margin: 0 0 1em;
 }
 
 /* VIDEO SECTION END */
@@ -370,9 +393,9 @@ footer {
 /* GENERAL CSS END */
 
 body {
-  font: "normal  'YouTube Noto', Roboto, arial, sans-serif";
+  font: normal "YouTube Noto", Roboto, arial, sans-serif;
   background: #f1f1f1;
-  font-family: "'YouTube Noto', Roboto, arial, sans-serif";
+  font-family: "YouTube Noto", Roboto, arial, sans-serif;
 }
 
 .background-red {
@@ -385,4 +408,11 @@ body {
 
 .color-red {
   color: red;
+}
+
+button.icon-button {
+  border: none;
+  margin: 0 1em 0 0;
+  background: white;
+  color: #818282;
 }
