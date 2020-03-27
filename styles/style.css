@@ -97,10 +97,8 @@ nav#nav-container {
 
 /* MAIN SECTION CONTAINER */
 
-section#main {
+main {
   display: flex;
-  background: #f1f1f1;
-  margin: 0;
 }
 
 header#sidebar-header {
@@ -122,7 +120,7 @@ iframe {
   height: 415px;
 }
 
-main {
+section#main {
   width: 70vw;
   display: flex;
   margin: 1em;
@@ -132,7 +130,7 @@ main {
   height: 900px;
 }
 
-main section {
+section#main section {
   display: flex;
   background: #fff;
   width: 100%;
@@ -184,7 +182,7 @@ main section {
 #social-icons {
   display: flex;
   justify-content: space-between;
-  padding: 0;
+  padding: 0 !important;
 }
 
 #social-section-left,
