@@ -1,6 +1,7 @@
 # Youtube Clone
 
-Clone of [youtube.com](https://www.youtube.com)
+Clone of [youtube.com](https://www.youtube.com) for our first Microverse project included in the HTML & CSS course. 
+
 
 ![screenshot](./app_screenshot.png)
 
@@ -17,26 +18,25 @@ Clone of [youtube.com](https://www.youtube.com)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+ - Clone or download this repository to your local workstation.
+
 
 ### Prerequisites
-
-### Setup
+there are no prerequisits to run the project. but if you want to work on it make sure you have the following installed in your global evnviroment
+  - [npm](https://www.npmjs.com/products/teams?utm_source=adwords&utm_medium=ppc&utm_campaign=npmTeams2019Q2&utm_content=site&gclid=Cj0KCQjwyPbzBRDsARIsAFh15JaJyPdeb-Q11Rq-LMaulSWINd6PYdJQ2OkZyE75reyBcpnnmwPrgRoaAv_5EALw_wcB)
+  - [npx](https://www.npmjs.com/package/npx)
 
 ### Install
 
+for development make sure you run the following command before you start working on the project
+ `npm install`
+this will install all the packages used for development purpose, mainly `stylint`
+
+
 ### Usage
-
-### Run tests
-
-### Deployment
-
-
-
+ enter the directory where you cloned or downloaded the project and open index.html file using your favorite browser
+ 
 ## Authors
 
 👤 **Mikael Araya**
