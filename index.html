@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Youtube</title>
+    <link rel="stylesheet" href="./styles/css-reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav id="nav-container">
+      <div id="left-nav-item">
+        <div id="burger-box">
+          <span class="burger-stripe"></span>
+          <span class="burger-stripe"></span>
+          <span class="burger-stripe"></span>
+        </div>
+        <div class="logo">
+          <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          <span>YouTube</span>
+        </div>
+      </div>
+
+      <div id="search-box" class="opacity6">
+        <label for="search-input" class="hidden-item">Search</label>
+        <input
+          type="text"
+          placeholder="Search"
+          id="search-input"
+          title="Search"
+        />
+        <button id="search-button" type="button">
+          <i class="fa fa-search opacity6"></i>
+        </button>
+      </div>
+
+      <div id="right-nav-item">
+        <div id="video">
+          <i class="fa fa-video-camera" aria-hidden="true"></i>
+          <span>+</span>
+        </div>
+        <i class="fa fa-th" aria-hidden="true"></i>
+        <i class="fa fa-bell"></i>
+        <img
+          src="./images/user_avator.jpg"
+          alt="user avator"
+          id="user-avator"
+        />
+      </div>
+    </nav>
+    <main>
+      <section id="main">
+        <h2 class="hidden-item">hidden for semantic purpose</h2>
+        <section id="video-section">
+          <h2 class="hidden-item">hidden for semantic purpose</h2>
+          <iframe
+            src="https://www.youtube.com/embed/k6KcaMffxac"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="video-title">
+          <h2 class="hidden-item">hidden for semantic purpose</h2>
+          <h3 id="video-name">
+            Contributing to Open Source Part I: The Easy Way
+          </h3>
+          <div id="video-stats">
+            <div id="published-by">
+              <img
+                id="publisher-image"
+                alt="The Odin Project"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgUCCAMNAwMEAwkEBQgFBQQQBQoHBxAIDAYMDAsKCwoNDhIQDQ4RDgsLEBYJERMUFQwVCA8XGBYUDhELDAoBAwQEBgUGCgYGCBQNCwsUExQODhANFBANFA0NFBAODRQJCxMJDRAUCw4LFAoLFA0UFBQNCAgICAgIDgkICAgICP/AABEIADAAMAMBEQACEQEDEQH/xAAaAAEAAwADAAAAAAAAAAAAAAAABAUHAQIG/8QAKhAAAQMDAQcDBQAAAAAAAAAAAQACAwQFEQYHEhMUITFBMjV0CFFhcbP/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAgUDBAYHAf/EACkRAAEDAQUHBQAAAAAAAAAAAAABAgMEBREhMZETMzRScZLREiJDUcH/2gAMAwEAAhEDEQA/AJC8POMCAIAgCAIAgCAu4dD3WoDDFp+6Ste0OY8UUhaQR0IO71H5WylNMqXpGvavgybN/Kuhy/Ql2iDi/T11YGjJdyUoGPv6UWlmT417V8DZv5V0KNaxjCAIAgNu2L7Zb/X1+lYKi/TyQOqIqY03DYBwwMBud3PYDyuls20al08cSye29Euwy0LGnqJFe1quwJW2/bPf7HctSw0N+np4Y5eEyn4cZG6YRkZLc+T58qdp2jUx1EkbZLm/WGWhKoqJGyOajsDB1y5WBAEAQHuthfvGk/nsVpZfFx9TZpt63qSvqE961T8kfxap2txcnX8QlVb1xnaqDUCAIAgJ9ivlRpqaklts3LS0kglhl3Guw4djhwIP6IWWKV0T0exblTIm1ytX1Jmh21DqGp1VNVS3So5qWqdvzTbjWZOAPS0ADoB2C+zSvmesj1vVc1DnK9fU7NSuWEgEAQBAEAQBAEB//9k="
+              />
+              <div id="publisher-name">
+                <span>The Odin Project</span>
+                <div id="subscribe-section">
+                  <div id="subscribe-button">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    Subscribe
+                  </div>
+                  <span class="total-subscription light-text">
+                    999
+                  </span>
+                </div>
+              </div>
+            </div>
+            <span id="views" class="light-text">
+              5,7809 Views
+            </span>
+          </div>
+          <span class="thin-separator"></span>
+          <section id="social-icons">
+            <h2 class="hidden-item">hidden for semantic purpose</h2>
+            <div id="social-section-left" class="light-text">
+              <button type="button" class="icon-button">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+                Add To
+              </button>
+              <button type="button" class="icon-button">
+                <i class="fa fa-share" aria-hidden="true"></i>
+                Share
+              </button>
+              <button type="button" class="icon-button">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                More
+              </button>
+            </div>
+            <div id="social-section-right" class="light-text">
+              <button type="button" class="icon-button">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                359
+              </button>
+              <button type="button" class="icon-button">
+                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                14
+              </button>
+            </div>
+          </section>
+        </section>
+        <section id="video-description">
+          <h4>Published on Feb 27, 2014</h4>
+          <p>
+            How do you contribute to open source? In this video, I'll describe
+            the easiest way to make a simple contribution to an open source
+            project -- without using the command line, a text editor, "forking a
+            repo", or even touching Git outside of Github. I'll also describe
+            what kinds of contributions open source software projects are
+            typically looking for. As an example, I use submitting a student
+            solution to a web development exercise from The Odin Project, a free
+            online curriculum for learning web development with Ruby on Rails.
+            You can find more information about that project at
+            http://theodinproject.com
+          </p>
+          <span class="thin-separator"></span>
+          <span class="align-center light-text">SHOWMORE</span>
+        </section>
+      </section>
+
+      <aside>
+        <header id="sidebar-header">
+          <strong>Up next</strong>
+          <div>
+            <span class="light-text">Autoplay</span>
+            <i class="fa fa-info-circle light-text" aria-hidden="true"></i>
+            <i class="fa fa-toggle-on" aria-hidden="true"></i>
+          </div>
+        </header>
+
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              Contributing to Open Source Part II: The Real Way
+            </h3>
+
+            <div class="video-preview-footer">
+              <p class="preview-user">The Odin Project</p>
+              <span class="preview-views">29, 985 </span>
+            </div>
+          </div>
+        </section>
+
+        <span class="thin-separator"></span>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              'How to Get a Job at the Big 4 - Amazon, Facebook, Google &
+              Microsoft' by Sean Le
+            </h3>
+
+            <div class="video-preview-footer">
+              <p class="preview-user">imitina</p>
+              <span class="preview-views">981,534 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/94ce5195858269ff0184aa735ee160f562dafac4"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              Programming in Visual Basic .Net How to Connect Access Database to
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">IBasskung</p>
+              <span class="preview-views">11, 580,484 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/42fcf704757c206b21126f9ef6c413eff28de822"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">REST API concepts and examples</h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">WebConcepts</p>
+              <span class="preview-views">3,584,634</span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/ed9683aa07170cb5421ba283d3aad8e0a3626b97"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A
+              Case
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">Valuetainment</p>
+              <span class="preview-views">444,634 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/e551ad6b2fda543caa6fbd78c98ec95c1f1d0aff"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              How to create a 3D Terrain with Google Maps and height maps in
+              Photoshop
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">Orange Box Ceo</p>
+              <span class="preview-views">239,752 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/df21e12d7260fba2247c4dd328453a98929270e9"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              Convolutional Neural Networks (CNNs) explained
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">deeplizard</p>
+              <span class="preview-views">23,752</span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/0425d088770dd5fbb04c5830b5d45ceb7f87eb22"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">Top 10 Linux Job Interview Questions</h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">tutorialLinux</p>
+              <span class="preview-views">1,236,003 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/87ad6fdeaef86aa051f826e3006c068b60e06de9"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              Running an SQL Injection Attack - Computerphile
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">computerphile</p>
+              <span class="preview-views">2,217,477 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/b6e60231c77705ba5365c14da7c4ecb4ccb6cf86"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              How to prepare for product based companies??
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">Gate Lectures by Ravindrababu Ravula</p>
+              <span class="preview-views">291,215 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/30341e348ffdfd8ef110d868a3f4892d1dff1719"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              Visual Basic .Net : Search in Access Database - DataGridView
+              BindingSource Filter Part 1/2
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">iBasskung</p>
+              <span class="preview-views">6,047,577 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/9104e3bbe284cc6497daa29c2c6128b6d4ab68cc"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              How To Convert pdf to word without software
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">karim hamdadi</p>
+              <span class="preview-views">12,275,519 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/9104e3bbe284cc6497daa29c2c6128b6d4ab68cc"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              What Python Projects Should I Build to Get a Job?
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">Real Python</p>
+              <span class="preview-views">169,155 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/f19150ffbc1e56e3c0f4bf3d16f852c1a06c00d9"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              How To NOT Look Like A Tourist | What To Wear In Europe
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">Audrey Coyne</p>
+              <span class="preview-views">3,432,133 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/3e74c5bf2dadd9fe3ec6089804970180b60cbfcd"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              Your First GitHub Pull Request (in 10 Mins)
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">Jackson Bates</p>
+              <span class="preview-views">31,930 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/6b60f3abb556233757873da7cedd5b091744ce34"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              Top signs of an inexperienced programmer
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">TechLead</p>
+              <span class="preview-views">928,523 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/872b157fed3ecb14099122fcb5f981408ec8d7d2"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              Why I left my job at Google (as a software engineer)
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">TechLead</p>
+              <span class="preview-views">1,684,582 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/d95c11ceed49c1ae50d224d33110ab2728c03a23"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              Max Stoiber - I want you to contribute to open source
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">ReactRally</p>
+              <span class="preview-views">3,134</span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/c477e426b7e9e5361e6c2bd1838c751516a76765"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">
+              How to Learn Anything... Fast - Josh Kaufman
+            </h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">The RSA</p>
+              <span class="preview-views">3,157,647 </span>
+            </div>
+          </div>
+        </section>
+        <section class="video-preview-content">
+          <img
+            src="https://archive.vn/Bss88/71a8551dc420f7a68c7e3fa3f91e5af9b702eae8"
+            alt=""
+          />
+          <div class="details">
+            <h3 class="video-title">Git & GitHub: Pull requests (10/11)</h3>
+            <div class="video-preview-footer">
+              <p class="preview-user">Codecourse</p>
+              <span class="preview-views">78,624 </span>
+            </div>
+          </div>
+        </section>
+        <span class="thin-separator"></span>
+        <a href="#" id="show-more-button" class="align-center light-text">
+          SHOW MORE
+        </a>
+      </aside>
+    </main>
+    <footer>
+      <div class="footer-top-wrapper">
+        <div class="logo">
+          <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          <span>YouTube</span>
+        </div>
+        <div class="top-item language">
+          <i class="fa fa-user"></i>
+          <span>Language:</span>
+          <span><strong>English</strong></span>
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </div>
+        <div class=" top-item location">
+          <span>Location:</span>
+          <span><strong>Microverse</strong></span>
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </div>
+        <div class="top-item mode">
+          <span>Restricted mode:</span>
+          <span><strong>off</strong></span>
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </div>
+        <div class="top-item history">
+          <i class="fa fa-hourglass-end"></i>
+          <span>History</span>
+        </div>
+        <div class="top-item help">
+          <i class="fa fa-question-circle"></i>
+          <span>Help</span>
+        </div>
+      </div>
+      <div class="footer-bottom-wrapper">
+        <div id="bottom-top">
+          <a href="#" target="blank">About</a>
+          <a href="#">Press</a>
+          <a href="#">Copyright</a>
+          <a href="#">Creators</a>
+          <a href="#">Advertise</a>
+          <a href="#">Developers</a>
+        </div>
+        <div id="bottom-bottom">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Policy & Safety</a>
+          <a href="#" id="bottom-last">Test new features</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

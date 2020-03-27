@@ -1,10 +1,9 @@
 # Youtube Clone
 
+
 Clone of [youtube.com](https://www.youtube.com) for our first Microverse project included in the HTML & CSS course. 
 
-
-![screenshot](./app_screenshot.png)
-
+![screenshot](./images/screenshot.png)
 
 ## Built With
 
@@ -14,7 +13,6 @@ Clone of [youtube.com](https://www.youtube.com) for our first Microverse project
 ## Live Demo
 
 [Live Demo Link](https://mikearaya.github.io/youtube_clone)
-
 
 ## Getting Started
 
@@ -26,13 +24,11 @@ To get a local copy up and running follow these simple example steps.
 there are no prerequisits to run the project. but if you want to work on it make sure you have the following installed in your global evnviroment
   - [npm](https://www.npmjs.com/products/teams?utm_source=adwords&utm_medium=ppc&utm_campaign=npmTeams2019Q2&utm_content=site&gclid=Cj0KCQjwyPbzBRDsARIsAFh15JaJyPdeb-Q11Rq-LMaulSWINd6PYdJQ2OkZyE75reyBcpnnmwPrgRoaAv_5EALw_wcB)
   - [npx](https://www.npmjs.com/package/npx)
-
 ### Install
 
 for development make sure you run the following command before you start working on the project
- `npm install`
+`npm install`
 this will install all the packages used for development purpose, mainly `stylint`
-
 
 ### Usage
  enter the directory where you cloned or downloaded the project and open index.html file using your favorite browser
@@ -48,8 +44,8 @@ this will install all the packages used for development purpose, mainly `stylint
 👤 **Mworekwa Ezekiel**
 
 - Github: [@vanheaven-ui](https://github.com/vanheaven-ui)
-Twitter: [@MworekwaE](https://twitter.com/MworekwaE)
-- Linkedin: [linkedin](www.linkedin.com/in/vanheaven)
+  Twitter: [@MworekwaE](https://twitter.com/MworekwaE)
+  cd- Linkedin: [linkedin](www.linkedin.com/in/vanheaven)
 
 ## 🤝 Contributing
 
